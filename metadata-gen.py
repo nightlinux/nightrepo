@@ -21,3 +21,5 @@ def generate_metadata(repo_dir, output_file, base_url, architecture="x86_64"):
 repo_directory = "./repo"
 output_metadata = "./metadata.list"
 repository_base_url = "https://nightlinux.github.io/nightrepo/"
+
+generate_metadata(repo_directory, output_metadata, repository_base_url)
